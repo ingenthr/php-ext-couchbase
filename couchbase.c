@@ -1195,7 +1195,7 @@ php_couchbase_stat_callback(libcouchbase_t handle,
 }
 /* }}} */
 
-/* internal implementions */
+/* internal implementations */
 static void php_couchbase_create_impl(INTERNAL_FUNCTION_PARAMETERS, int oo) /* {{{ */ {
 	char *host;
 	char *user = NULL, *passwd = NULL, *bucket = NULL;
